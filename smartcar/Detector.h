@@ -16,5 +16,6 @@ public:
 	~Detector(void);
 	void test(void);
 	void processImage(Mat&);
+	void perspective(Mat&);
 };
 
